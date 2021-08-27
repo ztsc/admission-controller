@@ -11,6 +11,11 @@ kubectl create secret docker-registry registry-credentials --docker-server=https
 
 Followed the instructions in link above to configure the kyverno controller.
 
+To see if the kyverno was able to register itself as a mutating and validating admission controller, run command:
+```
+oc get validatingwebhookconfigurations,mutatingwebhookconfigurations
+```
+
 
 ## Status
 
