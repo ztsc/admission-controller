@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: quarkus-hello-service
+spec:
+  selector:
+    matchLabels:
+      app: quarkus-hello-service
+  template:
+    metadata:
+      labels:
+        app: quarkus-hello-service
+    spec:
+      containers:
+      - image: docker.io/gkovan/quarkus-hello-service:
+        name: quarkus-hello-service
+      serviceAccountName: default
