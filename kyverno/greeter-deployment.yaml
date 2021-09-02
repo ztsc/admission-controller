@@ -12,6 +12,6 @@ spec:
         app: greeter
     spec:
       containers:
-      - image: docker.io/gkovan/greeter
+      - image: docker.io/gkovan/greeter:latest
         name: greeter
       serviceAccountName: default
