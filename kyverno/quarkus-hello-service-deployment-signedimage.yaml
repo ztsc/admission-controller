@@ -12,6 +12,6 @@ spec:
         app: quarkus-hello-service
     spec:
       containers:
-      - image: docker.io/gkovan/quarkus-hello-service:
+      - image: docker.io/gkovan/quarkus-hello-service:latest
         name: quarkus-hello-service
       serviceAccountName: default
