@@ -15,6 +15,6 @@ spec:
       - image: "docker.io/gkovan/*"
         key: |-
           -----BEGIN PUBLIC KEY-----
-          MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfeA3l3o61HpdOpJx7e/+mfzRCo+s
-          64XhSCM5pSedzxWHYG4NsMlrr9X65il8WjHO99rw7ADw6o4AQl8+fKkSHg==
+          MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtwDUUcAVE4dJj623tCNy9WrYfgJn
+          gPqTAl4hkXdXMG1jk36OGxzwefjQO7XV37i0kJrWssfggVGxa0GoXryWVw==
           -----END PUBLIC KEY-----
